@@ -1,0 +1,79 @@
+body {
+	background: #1E90FF;
+	color: #fff;
+}
+
+/** header **/
+#header-nav {
+	background-color: #CF5C36;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding: 0;
+}
+.navbar-brand h1 {
+	margin-top: 8px;
+	color: #fff;
+	font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand  a:active {
+	text-decoration: none;
+}
+#collapseble-nav ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#collapseble-nav ul li hr{
+	padding: 0;
+	margin: 0;
+}
+#collapseble-nav ul li a{
+	color: #fff;	
+}
+#collapseble-nav ul li a:hover{
+	background: #fff;
+	color: #CF5C36;
+}
+/* main content */
+#our-menu {font-weight: bold;}
+
+.myblock {
+	border: 1px solid #fff;
+	padding: 15px;
+	color: #fff;
+	position:relative;
+	margin-bottom: 30px;
+}
+.mytitle {
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.myblock hr {width:50%;}
+.btt-area {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width:100%;
+	background: #fff;
+	color: #1E90FF;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 767px) {
+	.navbar-brand h1 {font-size: 5vw;}
+	.myblock {
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
